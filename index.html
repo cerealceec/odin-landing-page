@@ -7,15 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="header">
         <div id="header-logo">Header Logo</div>
-        <ul class="header-links">
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link two</a></li>
-            <li><a href="#">header link three</a></li>
+        <ul id="header-links">
+            <li><a class="small-text" href="#">header link one</a></li>
+            <li><a class="small-text" href="#">header link two</a></li>
+            <li><a class="small-text" href="#">header link three</a></li>
         </ul>
     </div>
 
@@ -24,21 +27,55 @@
             <div id="hero-title">
                 This is a website about kitties
             </div>
-            <div id="hero-text">
-                This is some text about kitties
+            <div id="hero-text" class="small-text">
+                This is some subtext with more information about the website. It's a smaller font and the colour is lower contrast.
             </div>
-            <button id="hero-signup">Sign up</button>
+            <button id="hero-signup" type="button">Sign up</button>
         </div>
-        <div class="hero-right">
-            <img src="./hero.jpg" id="hero-img">
+        <div>
+            <img src="./images/hero.jpg" id="hero-img">
         </div>
-            
     </div>
-    
 
-    <footer>
+    <div class="info">
+        <div id="info-header">
+            Examples of kitties.
+        </div>
+        <div id="gallery">
+            <div class="example">
+                <img src="./images/one.jpg">
+                <div class="caption">
+                    this is some subtext under a photo
+                </div>
+            </div>
+            <div class="example">
+                <img src="./images/two.jpg">
+                <div class="caption">
+                    this is some subtext under a photo
+                </div>
+            </div>
+            <div class="example">
+                <img src="./images/three.jpg">
+                <div class="caption">
+                    this is some subtext under a photo
+                </div>
+            </div>
+            <div class="example">
+                <img src="./images/four.jpg">
+                <div class="caption">
+                    this is some subtext under a photo
+                </div>
+            </div>
+        </div>
+    </div>
 
-    </footer>
+    <div>
+        
+    </div>
+
+    <div class="footer">
+
+    </div>
 </body>
 
 </html>
