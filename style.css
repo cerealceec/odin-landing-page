@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
+    font-size: 18px;
 }
 
 .header {
@@ -28,7 +29,6 @@ body {
 
 .small-text {
     color: #e5e7eb;
-    font-size: 18px;
     text-decoration: none;
 }
 
@@ -67,8 +67,8 @@ button {
     padding: 8px 32px;
     border: none;
     border-radius: 8px;
-    font-size: 18px;
     font-weight: 500;
+    font-size: 18px;
 }
 
 button:hover {
@@ -76,7 +76,7 @@ button:hover {
 }
 
 .info {
-    padding: 48px 0 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -84,7 +84,7 @@ button:hover {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
-    margin-bottom: 48px;
+    margin-bottom: 50px;
 }
 
 #gallery {
@@ -105,6 +105,51 @@ button:hover {
 }
 
 .caption {
-    font-size: 18px;
     color: #4B5564;
+}
+
+.quote {
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 80px 350px;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+#attribution {
+    font-weight: 500;
+    text-align: right;
+}
+
+#blue-container {
+    background-color: #3882f6;
+    margin: 70px 150px;
+    padding: 40px 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#action-header {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+#action-button {
+    border: 2px solid white;
+}
+
+.footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 36px;
+    text-align: center;
 }
